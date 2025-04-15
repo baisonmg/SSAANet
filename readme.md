@@ -24,22 +24,32 @@ python main.py
 ```
 ## Method
 
-
-
 ![SSAANet Architecture](./pics/main.png)
+
 **Figure 1.** Overall architecture of the proposed SSAANet. SSRB denotes the Spatial-Spectral Rectification Block, while SSFAB denotes the Spatial-Spectral Feature Alignment Block.  
 
+
+
 ![SSRB](./pics/SSRB.png)
+
 **Figure 2.** Detailed architecture of the proposed Spatial-Spectral Rectification Block (SSRB).  
 
+
+
 ![SSFAB](./pics/SSFAB.png)
+
 **Figure 3.** Detailed architecture of the proposed Spatial-Spectral Feature Alignment Block (SSFAB).  
 
+
 ![SSFAB](./pics/dis.png)
+
 **Figure 4.** Quantitative comparisons of different approaches were conducted on the Chikusei, Houston, and PaviaU test datasets.
 The best results are highlighted in bold, while the second-best results are underlined.
 
+
+
 ![SSFAB](./pics/eff.png)
+
 **Figure 5.** Comparison of SSAANet and state-of-the-art models in terms of parameter count and computational complexity (FLOPs) for ×4 super-resolution on the PaviaU dataset.
 
 
